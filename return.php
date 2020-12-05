@@ -24,7 +24,7 @@
   } else {
     echo "<h1>Unsuccesfully try again</h1>";
  }
- header( "refresh:5;url=http://localhost/myKnot-gh-pages/index.html#services" );
+ header( "refresh:5;url=https://myknotpvt.herokuapp.com/index.html#services" );
  ?>
  <div style="text-align:center;">
      <h2 >Redirecting back to services in <span id="counter">5</span> second(s)</h2>
