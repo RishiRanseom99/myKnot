@@ -51,11 +51,11 @@ body {
   }
 }
 
-@media (max-width: 540px) {
+/* @media (max-width: 540px) {
   #buyNow {
     margin-bottom: 2vmin;
   }
-}
+} */
 
 /* -----------------------------------------------
 					ABOUT
@@ -245,3 +245,24 @@ body {
   max-width: 80%;
   height: auto;
 }
+        /* -----------------------------------------------
+                            PAYMENT FORM
+        -------------------------------------------------- */
+.payment__form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2vmin;
+
+}
+@media (min-width: 40em) {
+  .payment__form >input{
+    max-width: 50%;
+  }
+}
+.price{
+  font-size: 7vmin;
+  color: red;
+  font-weight: bold;
+}
+
