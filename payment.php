@@ -8,7 +8,8 @@ $customerEmail=$_POST['customer_email'];
 $customerPhone=$_POST['customer_phone'];
 $orderCurrency="INR";
 $orderNote=$_POST['order__note'];
-$returnUrl="http://localhost/myKnot-gh-pages/return.php";
+$returnUrl="https://myknotpvt.herokuapp.com/myKnot-gh-pages/return.php";
+
 $notifyUrl="";
 
 $orderDetails=array();
